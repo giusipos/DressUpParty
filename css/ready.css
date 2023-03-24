@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Public pixel";
+    src: url('./PublicPixel-z84yD.ttf');
+}
+
 html {
     overflow: hidden;
     width: 100%;
@@ -19,20 +24,20 @@ header{
 
 
 h1 {
-    font-family: Public pixel;
+    font-family: "Public pixel";
     font-size: 2em;
     color: black;
 
 }
 
 h2 {
-    font-family: Public pixel;
+    font-family: "Public pixel";
     font-size: 1.25em;
     color: black;
 }
 
 .goback {
-    font-family: Public pixel;
+    font-family: "Public pixel";
     color: black;
     text-align: center;
     text-decoration: none;	
@@ -47,7 +52,7 @@ h2 {
 }
 
 .party {
-    font-family: Public pixel;
+    font-family: "Public pixel";
     color: black;
     background-color: white;
     text-align: center;
