@@ -1,0 +1,227 @@
+* {
+   overflow: hidden;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: Public pixel;
+    font-size: 30px;
+    color: black;
+    margin-left: 0.6em;
+}
+
+h2 {
+    font-family: Public pixel;
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    font-family: Public pixel;
+    font-size: 15px;
+    color: black;
+    padding: 1em;
+    border: 5px solid black;
+    width: 570px;
+    position: absolute;
+    left: 780px;
+    bottom: 588px
+}
+
+
+#dachshund {
+    width: 560px;
+    image-rendering: pixelated;
+}
+
+.hok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 57%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.tabel {
+    flex: 1;
+    height: 640px;
+    box-sizing: border-box;
+    margin-left: 1em;
+    border: 5px solid black;
+    padding: 1em;
+    background-color: white;
+}
+
+.table-row {
+    display: flex;
+    height: 140px;
+    image-rendering: pixelated;
+    border: 2.5px solid black;
+    background-color: white;
+}
+
+.border {
+    border: 2.5px solid black;
+}
+
+.ready {
+    font-family: Public pixel;
+    color: black;
+    text-decoration: none;	
+    text-align: center;
+    left: 85%;
+    margin-bottom: 1em;
+    padding: 2em;
+    position: absolute;
+    bottom: 1%;
+    border: 5px solid black;
+    background-color: white;
+
+} 
+
+button {
+    background-color: white;
+    border: 1px solid white;
+}
+
+#halobig {
+    position: absolute;
+    left: 820px;
+    bottom: 255px;
+    width: 250px;
+    image-rendering: pixelated;
+}
+
+#partyhatbig {
+    position: absolute;
+    left: 910px;
+    bottom: 455px;
+    width: 200px;
+    image-rendering: pixelated;
+}
+
+#devilhornsbig {
+    position: absolute;
+    left: 945px;
+    bottom: 480px;
+    width: 145px;
+    image-rendering: pixelated;
+}
+
+#bathduckbig {
+    position: absolute;
+    left: 818px;
+    bottom: 245px;
+    width: 560px;
+    image-rendering: pixelated;
+}
+
+#witchbig {
+    position: absolute;
+    left: 908px;
+    bottom: 480px;
+    width: 490px;
+    image-rendering: pixelated;
+}
+
+#cloudbig {
+    position: absolute;
+    left: 840px;
+    bottom: 150px;
+    width: 545px;
+    image-rendering: pixelated;
+}
+
+#partysocksbig {
+    position: absolute;
+    left: 973px;
+    bottom: 215px;
+    width: 310px;
+    image-rendering: pixelated;
+}
+
+#devilshoesbig {
+    position: absolute;
+    left: 840px;
+    bottom: 210px;
+    width: 530px;
+    image-rendering: pixelated;
+}
+
+#ballerinasbig {
+    position: absolute;
+    left: 821px;
+    bottom: 210px;
+    width: 560px;
+    image-rendering: pixelated;
+}
+
+#heelsbig {
+    position: absolute;
+    left: 830px;
+    bottom: 199px;
+    width: 550px;
+    image-rendering: pixelated;
+}
+
+#wingsbig {
+    position: absolute;
+    left: 1115px;
+    bottom: 365px;
+    width: 120px;
+    image-rendering: pixelated;
+}
+
+#tonguebig {
+    position: absolute;
+    left: 900px;
+    bottom: 302px;
+    width: 110px;
+    image-rendering: pixelated;
+}
+
+#deviltailbig {
+    position: absolute;
+    left: 770px;
+    bottom: 70px;
+    width: 500px;
+    image-rendering: pixelated;
+}
+
+#bubblesbig {
+    position: absolute;
+    left: 815px;
+    bottom: 360px;
+    width: 560px;
+    image-rendering: pixelated;
+}
+
+#catbig {
+    position: absolute;
+    left: 860px;
+    bottom: 210px;
+    width: 100px;
+    image-rendering: pixelated;
+}
+
+.hidden {
+    display: none;
+}
+
+.sound {
+    position: absolute;
+    left: 1350px;
+    bottom: 660px;
+    width: 55px;
+    image-rendering: pixelated;
+}
