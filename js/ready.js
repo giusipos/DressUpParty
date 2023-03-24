@@ -1,19 +1,12 @@
 //-----------------------------------------PARTYMODE----------------------------------------\\
 
 var partyButton = document.querySelector(".party");
-
 var goBack = document.querySelector(".goback");
-
 var body = document.querySelector("body");
-
 var h1 = document.querySelector("h1");
-
 var h2 = document.querySelector("h2");
-
 var audio = new Audio("./audio/partysong.mp3");
-
 var jump = document.querySelector(".jump");
-
 var jump2 = document.querySelector(".jump2");
 
 
@@ -74,21 +67,13 @@ function partyTime(){
 
 // Hieronder zoeken we naar een URL parameter, met behulp van de searchParams, zo kunnen we de status van alle dingen uit de URL halen
 var url = new URL(window.location.href);
-
 var hatsStatus = url.searchParams.get("hatsStatus");
-
 var shoesStatus = url.searchParams.get("shoesStatus");
-
 var acces1Status = url.searchParams.get("acces1Status");
-
 var acces2Status = url.searchParams.get("acces2Status");
-
 var acces3Status = url.searchParams.get("acces3Status");
-
 var acces4Status = url.searchParams.get("acces4Status");
-
 var acces5Status = url.searchParams.get("acces5Status");
-
 var dogStatus = url.searchParams.get("dogStatus");
 
 
@@ -223,17 +208,10 @@ function dogCheck() {
 
 
 window.addEventListener("load", hatCheck);
-
 window.addEventListener("load", shoesCheck);
-
 window.addEventListener("load", acces1check);
-
 window.addEventListener("load", acces2check);
-
 window.addEventListener("load", acces3check);
-
 window.addEventListener("load", acces4check);
-
 window.addEventListener("load", acces5check);
-
 window.addEventListener("load", dogCheck);

@@ -40,14 +40,9 @@ p {
 #dachshund {
     width: 560px;
     image-rendering: pixelated;
-}
-
-.hok {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    left: 57%;
+    left: 820px;
+    bottom: 210px;
 }
 
 .container {
@@ -58,6 +53,7 @@ p {
 }
 
 .tabel {
+    position: absolute;
     flex: 1;
     height: 640px;
     box-sizing: border-box;
