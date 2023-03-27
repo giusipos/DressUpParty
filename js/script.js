@@ -217,8 +217,10 @@ function shoesCheck() {
         devilshoesBig.classList.add("hidden");
         ballerinasBig.classList.add("hidden");
         heelsBig.classList.remove("hidden");
-}};
-//<----------------------------------ACCESSOIRES------------------------------------->//
+    }
+}
+
+//<------------------------------ACCESSOIRES--------------------------------->//
 
 var acces1Status = 0;
 var acces2Status = 0;
