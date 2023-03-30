@@ -77,8 +77,6 @@ var acces5Status = url.searchParams.get("acces5Status");
 var dogStatus = url.searchParams.get("dogStatus");
 
 
-
-
 var haloBig = document.querySelector("#halobig");
 
 var partyhatBig = document.querySelector("#partyhatbig");
