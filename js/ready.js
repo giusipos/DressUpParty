@@ -63,6 +63,13 @@ function partyTime(){
     }
 }   
 
+
+// Bron liedje
+// https://youtu.be/eBpYgpF1bqQ
+
+// bron Confetti gif
+// https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g
+
 //-----------------------------------------INDEX.HTML CLOTHES----------------------------------------\\
 
 // Hieronder zoeken we naar een URL parameter, met behulp van de searchParams, zo kunnen we de status van alle dingen uit de URL halen

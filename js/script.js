@@ -23,6 +23,9 @@ function backgroundSong() {
 
 }
 
+// bron liedje:
+// https://youtu.be/_xc7tNbjnHM
+
 //<------------------------------------HATS------------------------------------->//
 
 var hatsStatus = 0;
